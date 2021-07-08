@@ -10,6 +10,7 @@ with open('usgs_api.json') as access_json:
 
 # create a variable for the earthquake features
 quake_features = quakes['features']
+
 # create a empty dictionary
 dynamo_list = []
 i = 0
